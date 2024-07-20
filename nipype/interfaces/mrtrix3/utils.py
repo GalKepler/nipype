@@ -273,7 +273,6 @@ class Generate5ttInputSpec(MRTrix3BaseInputSpec):
         "aseg",
         argstr="-hippocampi %s",
         desc="Choose the method used to segment the hippocampi. (Only for 'freesurfer' algorithm)",
-        usedefault=False,
     )
     white_stem = traits.Bool(
         argstr="-white_stem",
