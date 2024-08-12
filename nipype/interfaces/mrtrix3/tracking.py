@@ -292,7 +292,7 @@ class TractographyInputSpec(MRTrix3BaseInputSpec):
         ),
     )
     out_seeds = File(
-        "out_seeds.nii.gz",
+        "out_seedss.nii.gz",
         usedefault=True,
         argstr="-output_seeds %s",
         desc=("output the seed location of all successful streamlines to a file"),
